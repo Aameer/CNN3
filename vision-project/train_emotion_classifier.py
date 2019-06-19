@@ -56,7 +56,7 @@ def load_fer2013():
 # loading dataset
 
 train_faces, train_emotions, val_faces, val_emotions = load_fer2013()
-import pdb;pdb.set_trace()
+#import pdb;pdb.set_trace()
 num_samples, num_classes = train_emotions.shape
 
 train_faces /= 255.
